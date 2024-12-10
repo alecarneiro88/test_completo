@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  backend:
+    image: image-php
+    container_name: php-container2
+    ports:
+      - "80:80"
+  
